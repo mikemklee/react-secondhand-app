@@ -1,0 +1,7 @@
+node_modules/
+public/dist/
+notes.md
+yarn-error.log
+.env.test
+.env.development
+capture/
