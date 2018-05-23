@@ -1,0 +1,24 @@
+.Nav {
+  display: flex;
+  margin: 0;
+  padding: $m-size;
+  border-bottom: 3px solid darken($off-white, 10%);
+}
+
+.Nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.Nav__item {
+  cursor: pointer;
+  display: inline-block;
+  font-size: $font-size-large;
+  list-style: none;
+  margin-right: $m-size;
+}
+
+.Nav__item--brand {
+  @extend .Nav__item;
+  margin-right: $l-size;
+}
