@@ -6,6 +6,7 @@ const items = [
     course: "ECO100",
     price: 80,
     note: "in mint condition Sausage tenderloin kevin hamburger strip steak turducken prosciutto pork belly kielbasa shoulder bacon pig fatback jowl biltong. Burgdoggen boudin porchetta chicken, pastrami prosciutto t-bone. Kielbasa cupim hamburger pastrami tri-tip buffalo landjaeger swine. Meatball tail meatloaf, andouille ham hock ball tip spare ribs.",
+    createdAt: "2018/04/24"
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ const items = [
     course: "AST201",
     price: 80,
     note: "andouille ham hock ball tip spare ribs.in mint condition Sausage tenderloin kevin hamburger strip steak turducken prosciutto pork belly kielbasa shoulder bacon pig fatback jowl biltong. Burgdoggen boudin porchetta chicken, pastrami prosciutto t-bone. Kielbasa cupim hamburger pastrami tri-tip buffalo landjaeger swine. Meatball tail meatloaf, ",
+    createdAt: "2018/05/11"
   },
   {
     id: 3,
@@ -22,6 +24,7 @@ const items = [
     course: "RSM434",
     price: 49.50,
     note: "pastrami prosciutto t-bone. in mint condition Sausage tenderloin kevin hamburger strip steak turducken prosciutto pork belly kielbasa shoulder bacon pig fatback jowl biltong. Burgdoggen boudin porchetta chicken,  Kielbasa cupim hamburger pastrami tri-tip buffalo landjaeger swine. Meatball tail meatloaf, andouille ham hock ball tip spare ribs.",
+    createdAt: "2018/04/29"
   }
 ]
 

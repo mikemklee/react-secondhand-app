@@ -1,18 +1,25 @@
 .page-header {
   background: $off-white;
   margin-bottom: $l-size;
-  padding: $l-size 0;
-}
+  padding: $m-size 0 $s-size 0;
 
-.page-header__actions {
-  margin-top: $m-size;
-  
+  @media (min-width: $desktop-breakpoint) {
+    padding: $l-size 0 $m-size 0;
+  }
 }
 
 .page-header__title {
-  font-weight: 300;
-  margin: 0;
+  font-family: 'Signika', sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
+  margin: 0 0 $m-size 0;
   span {
     font-weight: 700;
   }
+}
+
+.page-header__subtitle {
+  @extend .page-header__title;
+  font-size: 2rem;
+  margin: $m-size 0;
 }

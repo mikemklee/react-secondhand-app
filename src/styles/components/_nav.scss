@@ -1,8 +1,8 @@
 .Nav {
   display: flex;
-  margin: 0;
+  margin: 0 0 $l-size 0;
   padding: $m-size;
-  border-bottom: 3px solid darken($off-white, 10%);
+  border-bottom: 1px solid darken($off-white, 3%);
 }
 
 .Nav ul {
